@@ -60,11 +60,15 @@ header {
    
     font-weight:600;
     font-size:1.2rem;
+    
+    text-align: center;
 
 }
 .header-info .contact p:last-child{
-    font-weight:800;
-    font-size:1.2rem;
+    font-weight:600;
+    font-size:1.5rem;
+    color: #3D1B62;
+    padding-top:0.5em;
 }
 
 
@@ -92,8 +96,7 @@ header {
 
 
 .header-container nav ul li a:hover{
-    background-color:#3D1B62;
-    padding:1em;
+    color:#3D1B62;
 }
 
 .active {
@@ -416,7 +419,7 @@ footer #footerNav a {
 footer #footerNav li a:hover {
   
     color:#3D1B62;
-    font-size:1.2rem;
+    
 }
 
 footer .contact-footer {
