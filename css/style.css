@@ -111,6 +111,33 @@ header {
 .mobile-items{
     display:none;
 }
+.navbar .dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+.navbar .submenu {
+    display: none;
+    position: absolute;
+    background-color: #d47e37;
+    top:15px;
+    min-width: 160px;
+    z-index: 9999;
+}
+
+.navbar .submenu li {
+    background-color: #D4AF37;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.navbar .dropdown:hover .submenu {
+    display: block;
+}
+
+
 
 .hero {
 
@@ -417,12 +444,32 @@ footer #footerNav a {
             
 }
 
+.footer-services .footer-sub-menu {
+   
+  
+    list-style: none;
+    text-align: center;
+    width:200px;
+    margin-top: 15px;
+    
+ 
+    
+
+}
+
+.footer-services .footer-sub-menu li {
+    padding-top:10px;
+
+}
+
 footer #footerNav li a:hover {
   
     color:#D4AF37;
   
     
 }
+
+
 
 footer .contact-footer {
     width: 100%;
@@ -448,6 +495,19 @@ footer .contact-footer .tel {
 .text-color {
     color:#D4AF37;
 }
+
+.text-color-2 {
+    color:#000000;
+}
+
+.text-color-2:hover {
+    color:#D4AF37;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
 .copyright {
     background-color: #57268b;
     color: #fff;
