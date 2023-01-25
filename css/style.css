@@ -90,7 +90,7 @@ header {
 .header-container nav ul li a{
     color:#fff;
     font-size:1rem;
-    font-weight:500;
+    font-weight:600;
     text-decoration: none;
 
 }
@@ -115,12 +115,14 @@ header {
 
     position: relative;
     display: inline-block;
+    
 }
+
 .navbar .submenu {
     display: none;
     position: absolute;
     background-color: #d47e37;
-    top:15px;
+    top:25px;
     min-width: 160px;
     z-index: 9999;
 }
@@ -423,6 +425,7 @@ footer {
     width: 100%;
     height: auto;
     padding:5% 20% 5%;
+    background-color: rgba(137, 137, 137, 0.048);
 }
 
 footer  #footerNav{
@@ -437,7 +440,7 @@ footer  #footerNav{
 }
 
 footer #footerNav a {
-    color:#3f3d3d;
+    color:#3D1B62;
     text-decoration: none;
     font-size:1rem;
     font-weight: 500;
