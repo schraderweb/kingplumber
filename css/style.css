@@ -429,7 +429,7 @@ justify-items: center;
 footer {
     width: 100%;
     height: auto;
-    background-color: #F1F1F1;
+    background-color: rgb(255, 255, 231);
 
     display: flex;
     justify-content:space-evenly;
@@ -545,10 +545,22 @@ footer .footer-links ul li a:hover{
     color: #fff;
     width: 100%;
     height:auto;
-    padding:5% 20% 5%;
+    padding:5% 0 5% 0;
     font-size:1rem;
     font-weight:500;
-    text-align: center;
+    
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.copyright .box a {
+    color:#D4AF37;
+    text-decoration: none;
+}
+
+.copyright .box a:hover {
+    color:#fff;
 }
 
 @media(max-width:1050px){
@@ -787,6 +799,16 @@ footer .footer-links ul li a:hover{
         
         }
 
+        .copyright {
+            flex-direction: column;
+            padding:5%;
+            justify-content: center;
+            justify-items: center;
+        }
+        
+        .copyright .box {
+            padding-top:2%;
+        }
         
         
 }
