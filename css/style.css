@@ -164,6 +164,7 @@ justify-items: center;
   line-height:4.5rem;
   letter-spacing:0.1em;
   font-weight:700;
+  margin-bottom:10px;
 }
 
 .open{
@@ -174,7 +175,7 @@ justify-items: center;
     display:none;
 }
 
-.hero .container button {
+.hero .container a {
     text-align: center;
     background-color: #3D1B62;
     color:#fff;
@@ -183,6 +184,7 @@ justify-items: center;
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
+    text-decoration: none;
 }
 .hero .container button:hover {
     background-color: #57268b;
