@@ -429,7 +429,7 @@ justify-items: center;
 footer {
     width: 100%;
     height: auto;
-    background-color: rgb(255, 255, 231);
+    background-color: rgb(250, 250, 176);
 
     display: flex;
     justify-content:space-evenly;
