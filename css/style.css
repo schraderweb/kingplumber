@@ -647,6 +647,21 @@ footer .footer-links ul li a:hover{
         font-weight:500;
         text-decoration: none;
     }  
+
+   
+
+    .dropdown-mobile .submenu-mobile {
+       
+        list-style: none;
+    }
+
+    .mobile-off {
+        display: none;
+    }
+
+    .mobile-on {
+        display: block;
+    }
     .faqs .facebook {
         text-align: auto;
      }  

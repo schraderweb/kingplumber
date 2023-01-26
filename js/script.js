@@ -36,3 +36,10 @@ function closeMenu(){
    
       
   }
+
+  function toggleServices() {
+    
+    let element = document.getElementById("toggleMobile");
+    element.classList.toggle('mobile-on');
+
+  }
