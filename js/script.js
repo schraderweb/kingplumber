@@ -22,24 +22,14 @@ function openMenu(){
       
   }
 
-function closeMenu(){
-
-
-    document.getElementById("toggleMenu").classList.add("close");
-    document.getElementById("toggleMenu").classList.remove("mobile-items");
-    
-    document.getElementById("openMenu").classList.add("open");
-    document.getElementById("openMenu").classList.remove("close");
-
-    document.getElementById("closeMenu").classList.remove("open");
-    document.getElementById("closeMenu").classList.add("close");
-   
-      
-  }
 
   function toggleServices() {
     
-    let element = document.getElementById("toggleMobile");
-    element.classList.toggle('mobile-on');
+    var x = document.getElementById("toggleMobile");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
 
   }
