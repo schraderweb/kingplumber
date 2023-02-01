@@ -171,18 +171,6 @@ justify-items: center;
 }
 
 
-.leak-hero .container{
-    text-align: center;
-}
-.leak-hero .container h1 {
-  color:#fff;
-  font-size:2.5em;
-  line-height:4.5rem;
-  letter-spacing:0.1em;
-  font-weight:700;
-  margin-bottom:10px;
-}
-
 
 
 .sewer-hero {
@@ -197,19 +185,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 justify-items: center;   
-}
-
-
-.sewer-hero .container{
-    text-align: center;
-}
-.sewer-hero .container h1 {
-  color:#fff;
-  font-size:2.5em;
-  line-height:4.5rem;
-  letter-spacing:0.1em;
-  font-weight:700;
-  margin-bottom:10px;
 }
 
 
@@ -232,19 +207,6 @@ justify-items: center;
 }
 
 
-.septic-hero .container{
-    text-align: center;
-}
-.septic-hero .container h1 {
-  color:#fff;
-  font-size:2.5em;
-  line-height:4.5rem;
-  letter-spacing:0.1em;
-  font-weight:700;
-  margin-bottom:10px;
-}
-
-
 
 
 .slableaks-hero {
@@ -261,16 +223,6 @@ justify-content: center;
 justify-items: center;   
 }
 
-
-.slableaks-hero .container{
-    text-align: center;
-}
-.slableaks-hero .container h1 {
-  color:#fff;
-  font-size:2.5em;
-  line-height:4.5rem;
-  letter-spacing:0.1em;
-  font-weight:700;
 
 
 
@@ -289,17 +241,7 @@ justify-items: center;
 }
 
 
-.waterleak-hero .container{
-    text-align: center;
-}
-.waterleak-hero .container h1 {
-  color:#fff;
-  font-size:2.5em;
-  line-height:4.5rem;
-  letter-spacing:0.1em;
-  font-weight:700;
-  margin-bottom:10px;
-}
+
 
 
 .pipe-hero {
@@ -316,18 +258,6 @@ justify-content: center;
 justify-items: center;   
 }
 
-
-.pipe-hero .container{
-    text-align: center;
-}
-.pipe-hero .container h1 {
-  color:#fff;
-  font-size:2.5em;
-  line-height:4.5rem;
-  letter-spacing:0.1em;
-  font-weight:700;
-  margin-bottom:10px;
-}
 
 
 
@@ -370,106 +300,16 @@ justify-items: center;
 
 
 
-.leak-hero .container a {
-    text-align: center;
-    background-color: #3D1B62;
-    color:#fff;
-    padding:10px 50px 10px 50px;
-    border: 0px solid  #3D1B62;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
-.leak-hero .container button:hover {
-    background-color: #57268b;
-}
 
 
 
 
-.septic-hero .container a {
-    text-align: center;
-    background-color: #3D1B62;
-    color:#fff;
-    padding:10px 50px 10px 50px;
-    border: 0px solid  #3D1B62;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
-.septic-hero .container button:hover {
-    background-color: #57268b;
-}
-
-
-.waterleak-hero .container a {
-    text-align: center;
-    background-color: #3D1B62;
-    color:#fff;
-    padding:10px 50px 10px 50px;
-    border: 0px solid  #3D1B62;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
-.waterleak-hero .container button:hover {
-    background-color: #57268b;
-}
 
 
 
-.pipe-hero .container a {
-    text-align: center;
-    background-color: #3D1B62;
-    color:#fff;
-    padding:10px 50px 10px 50px;
-    border: 0px solid  #3D1B62;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
-.pipe-hero .container button:hover {
-    background-color: #57268b;
-}
 
 
-	
-.slableaks-hero .container a {
-    text-align: center;
-    background-color: #3D1B62;
-    color:#fff;
-    padding:10px 50px 10px 50px;
-    border: 0px solid  #3D1B62;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
-.slableaks-hero .container button:hover {
-    background-color: #57268b;
-}	
 
-
-	
-.sewer-hero .container a {
-    text-align: center;
-    background-color: #3D1B62;
-    color:#fff;
-    padding:10px 50px 10px 50px;
-    border: 0px solid  #3D1B62;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-}
-.sewer-hero .container button:hover {
-    background-color: #57268b;
-}	
-	
 	
 	
 	
