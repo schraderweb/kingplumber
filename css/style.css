@@ -217,6 +217,33 @@ justify-items: center;
 
 
 
+.slableaks-hero {
+
+width:100%;
+height:80vh;
+background-image:linear-gradient(0deg, rgba(2, 2, 2, 0.429), rgba(16, 16, 16, 0.347)), url("../images/slableaks-hero.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-items: center;   
+}
+
+
+.slableaks-hero .container{
+    text-align: center;
+}
+.slableaks-hero .container h1 {
+  color:#fff;
+  font-size:2.5em;
+  line-height:4.5rem;
+  letter-spacing:0.1em;
+  font-weight:700;
+
+
+
 .waterleak-hero {
 
 width:100%;
@@ -380,6 +407,21 @@ justify-items: center;
 }
 
 
+	
+.slableaks-hero .container a {
+    text-align: center;
+    background-color: #3D1B62;
+    color:#fff;
+    padding:10px 50px 10px 50px;
+    border: 0px solid  #3D1B62;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.slableaks-hero .container button:hover {
+    background-color: #57268b;
+}	
 
 
 
