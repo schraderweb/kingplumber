@@ -156,6 +156,23 @@ justify-items: center;
 
 
 
+.chess-hero {
+
+width:100%;
+height:80vh;
+background-image:linear-gradient(0deg, rgba(2, 2, 2, 0.429), rgba(16, 16, 16, 0.347)), url("../images/chess-hero.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-items: center;   
+}
+
+
+
+
 .hotwater-hero {
 
 width:100%;
