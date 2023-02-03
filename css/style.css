@@ -138,7 +138,36 @@ header {
 .main-mobile-menu {
     display: none;
 }
+.main-hero .container{
+    text-align: center;
+}
 
+.main-hero .container h1 {
+    color:#fff;
+    font-size:2.5em;
+    line-height:4.5rem;
+    letter-spacing:0.1em;
+    font-weight:700;
+    margin-bottom:10px;
+  }
+  
+
+  
+  .main-hero .container a {
+      text-align: center;
+      background-color: #3D1B62;
+      color:#fff;
+      padding:10px 50px 10px 50px;
+      border: 0px solid  #3D1B62;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  .main-hero .container button:hover {
+      background-color: #b67bf6;
+  }
+  
 
 .hero {
 
@@ -222,6 +251,7 @@ align-items: center;
 justify-content: center;
 justify-items: center;   
 }
+
 
 
 
@@ -756,6 +786,116 @@ footer .footer-links ul li a:hover{
     color:#fff;
 }
 
+/* Start of Contact section */
+.contact-us {
+    width:100%;
+    height: auto;
+    margin-top:10%;
+    margin-bottom:10%;
+
+}
+.contact-us .container{
+    width:100%;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+  }
+ .contact-us .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ .contact-us .container .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .contact-us .content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .contact-us .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .contact-us .content .left-side .details i{
+    font-size: 30px;
+    color: #3e2093;
+    margin-bottom: 10px;
+  }
+ .contact-us .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+ .contact-us .content .left-side .details .text-one,
+ .contact-us .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .contact-us .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .contact-us .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #3e2093;
+  }
+  .contact-us .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .contact-us .right-side .message-box{
+    min-height: 110px;
+  }
+  .contact-us .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .contact-us .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .contact-us .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+ .contact-us  .button input[type="button"]:hover{
+    background: #5029bc;
+  }
+
+  
+/* End of Contact Section */
+
 @media(max-width:1050px){
     .header-container nav ul li:first-child{
         margin-right: 2em;
@@ -787,6 +927,14 @@ footer .footer-links ul li a:hover{
     }
     .faqs .facebook {
        text-align: auto;
+    }
+    .contact-us .container{
+        width: 100%;
+        padding: 30px 40px 40px 35px ;
+      }
+     .contact-us .container .content .right-side{
+       width: 75%;
+       margin-left: 55px;
     }
 }
 
@@ -957,6 +1105,29 @@ footer .footer-links ul li a:hover{
      footer  #footerNav{
         gap:8%;
       }
+
+
+      .contact-us .container{
+        margin: 40px 0;
+        height: 100%;
+      }
+      .contact-us .container .content{
+        flex-direction: column-reverse;
+      }
+     .contact-us .container .content .left-side{
+       width: 100%;
+       flex-direction: row;
+       margin-top: 40px;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .contact-us .container .content .left-side::before{
+       display: none;
+     }
+     .contact-us.container .content .right-side{
+       width: 100%;
+       margin-left: 0;
+     }
 
 
 }
