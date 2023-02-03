@@ -805,7 +805,7 @@ footer .footer-links ul li a:hover{
     justify-content: space-between;
   }
  .contact-us .container .content .left-side{
-    width: 25%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -835,15 +835,18 @@ footer .footer-links ul li a:hover{
   }
  .contact-us .content .left-side .details .topic{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
+    
+    
   }
  .contact-us .content .left-side .details .text-one,
  .contact-us .content .left-side .details .text-two{
     font-size: 14px;
-    color: #afafb6;
+    color: #000000;
+    font-weight:600;
   }
   .contact-us .container .content .right-side{
-    width: 75%;
+    width: 50%;
     margin-left: 75px;
   }
   .contact-us .content .right-side .topic-text{
@@ -1134,6 +1137,29 @@ footer .footer-links ul li a:hover{
 
 @media (max-width:600px) {
  
+     /* start of water heater hero section */
+     
+     .hotwater-hero {
+
+      background-image:linear-gradient(0deg, rgba(2, 2, 2, 0.429), rgba(16, 16, 16, 0.347)), url("../images/hotwater-hero.jpg");
+      background-size: cover;
+      height:50vh;
+
+    }
+
+    
+     /* end of water heater hero section */
+
+
+     .main-hero .container h1 {
+        color:#fff;
+        font-size:2.5em;
+        line-height:3rem;
+        letter-spacing:0.1em;
+        font-weight:700;
+        margin-bottom:30px;
+        
+      }
 
         .services {
             padding:10%;  
