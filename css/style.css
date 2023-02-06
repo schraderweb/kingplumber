@@ -870,7 +870,8 @@ footer .footer-links ul li a:hover{
     border-radius: 6px;
     padding: 0 15px;
     resize: none;
-  }
+    border: 2px solid #3D1B62;
+  } 
   .contact-us .right-side .message-box{
     min-height: 110px;
   }
@@ -898,6 +899,31 @@ footer .footer-links ul li a:hover{
 
   
 /* End of Contact Section */
+
+
+/* Start of Thank You Page */
+.thank-you {
+    width: 100%;
+    padding:5% 10% 5%;
+
+   
+}
+
+.thank-you .container {
+   text-align: center;
+   padding: 10% 20% 10% 20%;
+}
+
+.thank-you .container h2 {
+    color:#3D1B62;
+    font-size:2.5em;
+    line-height:4.5rem;
+    letter-spacing:0.1em;
+    font-weight:700;
+    margin-bottom:10px;
+
+}
+/* End of Thank You Page */
 
 @media(max-width:1050px){
     .header-container nav ul li:first-child{
@@ -1155,7 +1181,7 @@ footer .footer-links ul li a:hover{
 
 
 
-
+}
 
 
 @media (max-width:600px) {
